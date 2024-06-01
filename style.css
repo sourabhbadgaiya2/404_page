@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    /* padding: 2%; */
+    overflow: hidden;
+    font-family: Helvetica;
+}
+
+.main {
+    background-color: #030303;
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    color: white;
+}
+
+nav {
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-weight: 900;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.right-nav i {
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+nav img {
+    height: 130px;
+    /* width: 50px; */
+    object-position: center;
+
+
+
+}
+
+.b404 {
+    font-size: 100px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.circle {
+    position: absolute;
+    bottom: -80%;
+    border-radius: 50%;
+    height: 150%;
+    width: 100%;
+    /* background-color: rgba(240, 248, 255, 0.356); */
+    box-shadow: 0px -1.5px 10px rgba(255, 255, 255, 0.5);
+}
+
+.text {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.text :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+
+.text i {
+    font-size: 35px;
+}
+
+.footer {
+    width: 100%;
+}
+
+.top {
+    width: 80%;
+    padding: 0 60px;
+    margin-top: 5%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.tops {
+    width: 80%;
+    margin-top: 5px;
+    padding: 0 60px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1vw;
+
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9vw;
+    margin-right: 6%;
+}
+
+.txt p,
+.txts p {
+
+    border-bottom: 1px solid white;
+}
+
+.txts {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1%;
+    gap: 0.9vw;
+}
+
+.ftr {
+    padding: 0 60px;
+    margin-top: 10px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.legal {
+    display: flex;
+    gap: 2vw;
+}
+
+.back {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    top: 38%;
+    gap: 0.2vw;
+    font-size: 12px;
+}
